@@ -60,7 +60,7 @@ solana_address=$(prompt "Enter your Solana Address: ")
 ethereum_private_key=$(prompt "Enter your Ethereum Private Key: ")
 repeat_count=$(prompt "Enter The Number Of Times To Repeat The Transaction (Recommended 4-5): ")
 
-gas_limit="3000000"
+gas_limit="1500000"
 gas_price="100000"
 
 for ((i=1; i<=repeat_count; i++)); do
